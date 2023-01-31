@@ -1,0 +1,115 @@
+body{
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    background: darkorange;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo{
+    width: 70px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+.header-nav{
+    align-items: center;
+    display: flex;
+    padding: auto;
+    
+}
+
+.header-nav h2{
+   margin-left: 10px;
+   font-size: 25px;
+   color: green;
+   text-transform: uppercase;
+   font-weight: bold;
+   text-shadow: 1px 1px 1px #222;
+}
+
+span{
+    font-size: 16px;
+    color: black;
+}
+
+.bar{
+    width: 20px;
+    height: 20px;
+    padding-right: 20px ;
+    padding-top: 40px;
+    cursor: pointer;
+    display: none;
+}
+.bar-1{
+    width: 20px;
+    height: 20px;
+    padding-right: 20px ;
+    padding-top: 40px;
+    cursor: pointer;
+  
+    
+    
+}
+.fon{
+    width: 20px;
+    height: 20px;
+    padding-right: 20px ;
+    padding-top: 40px;
+    cursor: pointer;
+   
+} 
+
+
+.phone{
+    color: green;
+    font-size: 12px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+}
+
+.call > h2{
+    font-size: 16px;
+    color: black;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+@media(max-width: 600px){
+
+    .logo{
+        display: none;
+    }
+
+    .bar{
+        display: block;
+    }
+
+    .fon{
+        display: none;
+    }
+    .phone{
+        display: none;
+    }
+
+    .mainBar{
+        display: none;
+    }
+
+    .call{
+        display: none;
+    }
+
+}
+

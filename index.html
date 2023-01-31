@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOSTRAP</title>
+    <link rel="stylesheet" href="index.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <nav class="header-nav">
+                <img src="./images/mcdonalds-logo-1.jpg" class="logo">
+
+                <h2>David Chu's China Bistro<br><span>
+                    Aginga Certified
+                </span></h2>
+            
+            </nav>
+            <div class="mainBar">
+                <img src="images/spoon.png" class="bar-1">
+                <img src="images/about.png" class="bar-1">
+                <img src="images/award.png" class="bar-1">
+            </div>
+            <div class="call">
+                <h2>CALL NOW;</h2>
+                <h3 class="phone">+254 729817959</h3>
+            </div>
+            <img src="images/bar.png" onclick="showMenu()" class="bar">
+        </header>
+
+    </div>
+
+
+<script>
+    let mainBar = document.getElementById("mainBar");
+
+    function showMenu() {
+        mainBar.style.right = "0"; //we are chaging right value    
+    }
+    function showMenu() {
+        mainBar.style.right = "-200px"; //we are chaging right value    
+    }
+
+</script>
+
+</body>
+</html>
